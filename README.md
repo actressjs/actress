@@ -56,9 +56,9 @@ actress
 
 ## Documentation & Community
 
-  - [Documentation](https://www.actressjs.com/docs)
-  - [API](https://www.actressjs.com/docs/api)
-  - [Gitter](https://www.gitter.im/actress/actress)
+  - [Documentation](https://actressjs.com/docs)
+  - [API](https://actressjs.com/docs/api)
+  - [Gitter](https://gitter.im/actress/actress)
   - [Wiki](https://github.com/actress/actress/wiki)
 
 
