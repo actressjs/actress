@@ -24,8 +24,10 @@ npm install actress
 - Command line interface for scaffolding and upgrading
 - Support for multiple template engines
 - Support for multiple database adapters
+- Custom module bundler for client/server code
+- SEO and server-side rendering
+- Authentication & routing
 - High test coverage
-- Module bundler
 
 
 ## Getting Started
