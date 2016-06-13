@@ -3,7 +3,6 @@
 
 ---------
 
-
 [![Actress Logo](https://cdn.rawgit.com/actress/actress/master/logo.png)](http://expressjs.com/)
 
   Fast, extensible, isomorphic web framework for [node](http://nodejs.org).
@@ -19,11 +18,10 @@ npm install actress
 ```
 
 ## Features
-
 - Focus on high performance, security and scalability
 - Command line interface for scaffolding and upgrading
-- Support for multiple template engines
-- Support for multiple database adapters
+- Support for most view rendering engines
+- Datastore-agnostic, use multiple datastores
 - Custom module bundler for client/server code
 - SEO and server-side rendering
 - Authentication & routing
@@ -41,16 +39,10 @@ npm install actress-cli -g
 Create the app:
 
 ```
-actress init ~/apps/myApp && cd ~/apps/myApp
+actress new ~/apps/myApp && cd ~/apps/myApp
 ```
 
-Install dependencies:
-
-```
-npm install
-```
-
-Start the app development server:
+Start the app development server and manage API resources in the dashboard:
 
 ```
 actress
@@ -58,6 +50,7 @@ actress
 
 ## Documentation & Community
 
+  - [Guide](Guide.md)
   - [Documentation](https://actressjs.com/docs)
   - [API](https://actressjs.com/docs/api)
   - [Gitter](https://gitter.im/actress/actress)
@@ -66,7 +59,11 @@ actress
 
 ## Roadmap
 
-- [ ] Server + Client Libraries
+- [ ] Dashboard
+  - [ ] Permissions
+  - [ ] Manage datastore resources
+  - [ ] 
+- [ ] Server + Client Libraries 
   - [ ] Database Collections
     - [ ] MongoDB Adapter
     - [ ] Mongoose ORM Adapter
@@ -77,6 +74,8 @@ actress
   - [ ] Method Bridge
   - [ ] Schemas & Validations
   - [ ] Channels
+  - [ ] REST API
+  - [ ] GraphQL API
   - [ ] Router
   - [ ] Rendering
   - [ ] Server
