@@ -69,6 +69,7 @@ actress
     - [ ] MongoDB Adapter
     - [ ] Mongoose ORM Adapter
     - [ ] RethinkDB Adapter
+    - [ ] PostgreSQL Adapter
     - [ ] MySQL Adapter
   - [ ] Publish/Subscribe Model
   - [ ] Method Bridge
@@ -89,6 +90,6 @@ actress
 [npm-image]: https://img.shields.io/npm/v/actress.svg
 [npm-url]: https://npmjs.org/package/actress
 [downloads-image]: https://img.shields.io/npm/dm/actress.svg
-[downloads-url]: https://npmjs.org/package/express
+[downloads-url]: https://npmjs.org/package/actress
 [coveralls-image]: https://img.shields.io/coveralls/actress/actress/master.svg
 [coveralls-url]: https://coveralls.io/r/actress/actress?branch=master
